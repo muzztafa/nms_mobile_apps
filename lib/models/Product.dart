@@ -76,21 +76,21 @@ List<Product> demoProducts = [
     isPopular: true,
   ),
   Product(
-    images: [
-      "assets/images/wireless headset.png",
-    ],
-    colors: [
-      Color(0xFFF6625E),
-      Color(0xFF836DB8),
-      Color(0xFFDECB9C),
-      Colors.white,
-    ],
-    title: "Logitech Head",
-    price: 20.20,
-    description: description,
-    rating: 4.1,
-    isFavourite: true,
-  ),
+      images: [
+        "assets/images/wireless headset.png",
+      ],
+      colors: [
+        Color(0xFFF6625E),
+        Color(0xFF836DB8),
+        Color(0xFFDECB9C),
+        Colors.white,
+      ],
+      title: "Logitech Head",
+      price: 20.20,
+      description: description,
+      rating: 4.1,
+      isFavourite: true,
+      isPopular: true),
 ];
 
 const String description =

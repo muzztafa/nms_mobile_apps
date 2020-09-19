@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:shop_app/screens/home/components/featured_product.dart';
 
 //import '../../../size_config.dart';
 import 'categories.dart';
@@ -19,8 +20,9 @@ class Body extends StatelessWidget {
             HomeHeader(),
             SizedBox(height: getProportionateScreenWidth(10.0)),
             DiscountBanner(),
-            Categories(),
-            SpecialOffers(),
+            //Categories(),
+            //SpecialOffers(),
+            FeaturedProducts(),
             SizedBox(height: getProportionateScreenWidth(30.0)),
             PopularProducts(),
             SizedBox(height: getProportionateScreenWidth(30.0)),

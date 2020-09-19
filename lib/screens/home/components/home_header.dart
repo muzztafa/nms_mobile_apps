@@ -19,14 +19,15 @@ class HomeHeader extends StatelessWidget {
         children: [
           SearchField(),
           IconBtnWithCounter(
+            numOfitem: 10,
             svgSrc: "assets/icons/Cart Icon.svg",
             press: () {},
           ),
-          IconBtnWithCounter(
-            svgSrc: "assets/icons/Bell.svg",
-            numOfitem: 3,
-            press: () {},
-          ),
+          //IconBtnWithCounter(
+          // svgSrc: "assets/icons/Bell.svg",
+          //numOfitem: 3,
+          //press: () {},
+          // ),
         ],
       ),
     );
